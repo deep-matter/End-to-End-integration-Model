@@ -6,7 +6,7 @@ this project was collboration with **The national university of water and Enviro
 ### Build the models:
 as follows we built two models classifcation and segmentation and each one asychronized way. 
 
-* **Classification**:
+* **Classification** :
     - problem description :
       at this stage we explored different models architecture in computer vision , and we used Convolution neural network with adding improvement to it 
       1. collecting data :
@@ -15,6 +15,14 @@ as follows we built two models classifcation and segmentation and each one asych
          the data was nosiy and we used Per-Processing technique to enhance data such 
          super Resolution (Autoencoder) , Oversampling (DCGAN) , Histogram Equilazation 
       3. built model :
-         we explored different models architecture such RESNET and MobileNEt from Tensoflow **Per-Trained** models and we funed tune the parameters we reach out wiht out final model to ***96.58% AUC*** and it was based CNN and Smoothing is technic Regulazition to vectorize labels , and all the training process was implemented on Colab Google Platfrom that Provide GPH 
+         we explored different models architecture such RESNET and MobileNEt from Tensoflow **Per-Trained** models and we funed tune the parameters we reach out wiht out final model to ***96.58% AUC*** and it was based CNN and Smoothing is technic Regulazition to vectorize labels , and all the training process was implemented on Colab Google Platfrom that Provide GPU
+* **Segmentation** :
+    1. Problem Description:
+      after we built the Classifier and test on different sample some problems we faced are :
+      - similar features between Classes which make the model not able to predict each class good , 
+      - **Map vessel blood** of eyes have low pixles range and hard to make model focus on **the region of interest**. in this stage we used ***UNET MODEL***  to Re-Create a new database which only have the Map Vessel Boold , 
+    2. collecing data  
+
+
 
 
