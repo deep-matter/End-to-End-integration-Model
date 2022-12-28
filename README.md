@@ -3,8 +3,9 @@ this project was collboration with **The national university of water and Enviro
 1. Description Project:
    - we worked on End-to-End integration Models that contain tWo models **Classification** and **Segementation** each one of it built using different technologies , but important step in any Machine Learning Process is Deployment Model into production , we developed a **Web Application** using Flask to creat two EndPoints REST APIs . 
 
-##### Part 1 building models:
+#### Part 1 building models:
 as follows we built two models classifcation and segmentation and each one asychronized way. 
+**Notation** : ***all the models have been used is in Notebooks folder***
 
 * **Classification** :
     - problem description :
@@ -31,18 +32,27 @@ as follows we built two models classifcation and segmentation and each one asych
     <p align="center">
   <img src="./img/intergration.png" width="650" title="hover text">
      </p>
-##### Part 2 deployment MLOps:
+#### Part 2 deployment MLOps:
 next part was deploy the model into production to make easy to use , we developed web application using **Flask** to create two EndPoints APIS  work ascychronously which means goes from segmentation task into classification.the application has two interfaces to upload images 
 1. ***First interface*** : 
-      take the image and pass it into the segementer to obtain the map vessel boold and use the classifier to output the probabilit outcome of diseaes . 
+      take the image and pass it into the segementer to obtain the map vessel boold and use the classifier to output the probability outcome of diseaes . 
 2. ***Second interface*** :  
       only has the Classifier whihout need to segmente the image   
 
 * the interfaces are the Endpoints RESt APIs : 
  <p align="center">
   <img src="./img/interfaceapp.png" width="650" title="hover text">
-     </p>        
-      
+     </p>   
+
+3. **Run** :
+     to run the applicaion , install the reqqirements packages following
+
+         pip install -r requirements.txt
+     after run the ***app.py =*** host the application 
+
+          python app.py 
+    chose from folder sample/test image to perdict which the first interface will segment the image and save the results in **Segement Folder**          
+
 
 
 
