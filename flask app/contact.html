@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Us | GMD Model Detector</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+
+    <!-- plugin scripts -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700%7CBarlow:300,400,500,600,700,800,900%7CPT+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css" />
+    <link rel="stylesheet" href="assets/css/vimns-icons.css" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <div class="preloader">
+      <img src="assets/images/loader.png" class="preloader__image" alt="" />
+    </div>
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+      <header class="site-header-one">
+        <nav class="main-nav__one stricky">
+          <div class="container-fluid">
+            <div class="main-nav__logo-box">
+              <a href="index.html">
+                <img width="137" src="assets/images/logo-1-1.png" alt="" />
+              </a>
+              <a href="#" class="side-menu__toggler"
+                ><i class="fa fa-bars"></i
+              ></a>
+            </div>
+            <!-- /.main-nav__logo-box -->
+            <div class="main-nav__main-navigation">
+              <ul class="main-nav__navigation-box">
+                <li>
+                  <a href="reseaches.html">Reseaches</a>
+                </li>
+
+                <li class="dropdown">
+                  <a href="https://news.google.com/search?q=eye diseases diabetic retinopathy">News</a>
+                </li>
+                 <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.main-nav__main-navigation -->
+            <div class="main-nav__cta">
+              <div class="main-nav__cta-icon">
+                <i class="vimns-icon-phone"></i>
+              </div>
+              <!-- /.main-nav__cta-icon -->
+              <!-- /.main-nav__cta-content -->
+            </div>
+            <!-- /.main-nav__cta -->
+            <div class="main-nav__right">
+              <a href="upload.html" class="main-nav__btn">Diagnosis GMD Model</a
+              ><!-- /.main-nav__btn -->
+            </div>
+            <!-- /.main-nav__right -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+        <!-- /.main-nav__one -->
+      </header>
+      <!-- /.site-header-one -->
+
+      <section class="page-header">
+        <div class="container">
+          <h2>Contact</h2>
+          <ul class="thm-breadcrumb list-unstyled">
+            <li><span>Contact</span></li>
+          </ul>
+          <!-- /.thm-breadcrumb -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.page-header -->
+
+      <section class="contact-one">
+        <div class="container">
+          <div class="block-title text-center">
+            <p>Contact With Us</p>
+            <h3>Still Have a Question?</h3>
+          </div>
+          <!-- /.block-title -->
+          <form
+            action="sender/sendemail.php"
+            class="contact-form-validated contact-one__form"
+          >
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" name="name" placeholder="Name" />
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-lg-6">
+                <input type="text" name="email" placeholder="Email Address" />
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-lg-6">
+                <input type="text" name="phone" placeholder="Phone Number" />
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-lg-6">
+                <select class="selectpicker" name="discuss">
+                  <option value="">Discussion For</option>
+                  <option value="#">For Test Kit</option>
+                  <option value="#">For Quarentien</option> </select
+                ><!-- /#.selectpicker -->
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-lg-12">
+                <input type="text" name="subject" placeholder="Subject" />
+              </div>
+              <!-- /.col-lg-12 -->
+              <div class="col-lg-12">
+                <textarea name="message" placeholder="Write Message"></textarea>
+              </div>
+              <!-- /.col-lg-12 -->
+              <div class="col-lg-12 text-center">
+                <button type="submit" class="thm-btn contact-one__btn">
+                  Send Message
+                </button>
+                <!-- /.thm-btn contact-one__btn -->
+              </div>
+              <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+          </form>
+          <!-- /.contact-one__form -->
+          <div class="result"></div>
+          <!-- /.result -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.contact-one -->
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20254.611582782494!2d26.273812347927382!3d50.61176236414418!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d65c704c32f0238!2sThe%20National%20University%20of%20Water%20and%20Environmental%20Engineering!5e0!3m2!1sfr!2sma!4v1634421689712!5m2!1sfr!2sma"
+        class="google-map__contact"
+        allowfullscreen
+      ></iframe>
+
+      <footer class="site-footer-one site-footer-one__home-one">
+        <div class="site-footer-one__upper">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="footer-widget footer-widget__about">
+                  <a href="index.html" class="footer-widget__logo">
+                    <img width="137" src="assets/images/logo-1-1.png" alt="" />
+                  </a>
+                  <p></p>
+                </div>
+                <!-- /.footer-widget footer-widget__about -->
+              </div>
+              <!-- /.col-lg-4 -->
+              <div class="col-lg-3">
+                <div class="footer-widget footer-widget__links">
+                  <h3 class="footer-widget__title">Quick Links</h3>
+                  <!-- /.footer-widget__title -->
+                  <div class="footer-widget__links-wrap">
+                    <ul class="list-unstyled footer-widget__links-list">
+                      <li><a href="contact.html">About</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <!-- /.list-unstyled -->
+                    <ul class="list-unstyled footer-widget__links-list">
+                      <li><a href="reseaches.html">Reseaches</a></li>
+                      <li><a href="contact.html">Privacy Policy</a></li>
+                      <li><a href="contact.html">Terms of Use</a></li>
+                    </ul>
+                    <!-- /.list-unstyled -->
+                  </div>
+                  <!-- /.footer-widget__links-wrap -->
+                </div>
+                <!-- /.footer-widget footer-widget__about -->
+              </div>
+              <!-- /.col-lg-3 -->
+              <div class="col-lg-3">
+                <div class="footer-widget footer-widget__contact">
+                  <h3 class="footer-widget__title">Contact</h3>
+                  <!-- /.footer-widget__title -->
+                  <p>
+                    <a href="https://www.researchgate.net/profile/Mahmoud-Smaida">Mahmoud Smaida</a>
+                  </p>
+                  <p>
+                    I am from Libya,,<br />
+                   study PhD in ukraine
+                  </p>
+                </div>
+                <!-- /.footer-widget footer-widget__contact -->
+              </div>
+              <!-- /.col-lg-3 -->
+              <div class="col-lg-2 d-flex">
+                <div class="footer-widget my-auto">
+                  <div class="footer-widget__social">
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100010880462736/"
+                      class="fab fa-facebook-square"
+                      href="https://www.facebook.com/"
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/mahmoud-smaida-a23696189/"
+                      class="fab fa-linkedin"
+                      href="https://www.linkedin.com/"
+                    ></a>
+                    <a
+                      href="https://www.researchgate.net/profile/Mahmoud-Smaida"
+                      class="fab fa-researchgate"
+                      href="https://www.researchgate.net/"
+                    ></a>
+                  </div>
+                  <!-- /.footer-widget__social -->
+                </div>
+                <!-- /.footer-widget -->
+              </div>
+              <!-- /.col-lg-2 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.site-footer-one__upper -->
+        <div class="site-footer-one__bottom">
+          <div class="container">
+            <p>
+              © copyright 2021 by
+              <a href="https://www.researchgate.net/profile/Mahmoud-Smaida">Mahmoud Smaida</a>
+            </p>
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.site-footer-one__bottom -->
+      </footer>
+      <!-- /.site-footer-one -->
+    </div>
+    <!-- /.page-wrapper -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"
+      ><i class="fa fa-angle-up"></i
+    ></a>
+
+    <div class="side-menu__block">
+      <div class="side-menu__block-overlay custom-cursor__overlay">
+        <div class="cursor"></div>
+        <div class="cursor-follower"></div>
+      </div>
+      <!-- /.side-menu__block-overlay -->
+      <div class="side-menu__block-inner">
+        <div class="side-menu__top justify-content-end">
+          <a href="#" class="side-menu__toggler side-menu__close-btn"
+            ><img src="assets/images/shapes/close-1-1.png" alt=""
+          /></a>
+        </div>
+        <!-- /.side-menu__top -->
+
+        <nav class="mobile-nav__container">
+          <!-- content is loading via js -->
+        </nav>
+        <div class="side-menu__sep"></div>
+        <!-- /.side-menu__sep -->
+        <div class="side-menu__content">
+          <p></p>
+          <p>
+            <a href="mailto:smaida20012001@gmail.com">smaida20012001@gmail.com</a>
+          </p>
+          <div class="side-menu__social">
+            <a
+                      href="https://www.facebook.com/profile.php?id=100010880462736/"
+                      class="fab fa-facebook-square"
+                      href="https://www.facebook.com/"
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/mahmoud-smaida-a23696189/"
+                      class="fab fa-linkedin"
+                      href="https://www.linkedin.com/"
+                    ></a>
+                    <a
+                      href="https://www.researchgate.net/profile/Mahmoud-Smaida"
+                      class="fab fa-researchgate"
+                      href="https://www.researchgate.net/"
+                    ></a>
+          </div>
+        </div>
+        <!-- /.side-menu__content -->
+      </div>
+      <!-- /.side-menu__block-inner -->
+    </div>
+    <!-- /.side-menu__block -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/TweenMax.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/isotope.js"></script>
+
+    <!-- template scripts -->
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/testimonials-owl.carousel.config.js"></script>
+  </body>
+</html>

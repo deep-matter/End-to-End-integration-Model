@@ -1,0 +1,14 @@
+1- install anaconda tool 
+2- Creating A New Environment 
+   conda create -n tf python=3.9.7
+3- install packages by running requirements.txt 
+   pip install -r requirements.txt 
+4- download saved models from drive and copy them in folder app 
+   /Eyes diseases classification web app/Web App/models/
+   - and read comments i did when you have to add the models in app.py 
+5-copy a few samples of testing data in folder app 
+  Eyes diseases classification web app/Web App/sample/ 
+6- active the Envi
+   conda activate tf 
+6- run the APP BY 
+     python app.py 
