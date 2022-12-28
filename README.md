@@ -29,7 +29,7 @@ as follows we built two models classifcation and segmentation and each one asych
     to make sure the model classification is performed in the right order we applied Grad-CAM activation class map to show the most area the model learn from 
     here the Full Backend Process **End-to-End integration**
     <p align="center">
-  <img src="./img/intergration.png" width="350" title="hover text">
+  <img src="./img/intergration.png" width="650" title="hover text">
      </p>
          
 
