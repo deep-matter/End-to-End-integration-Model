@@ -53,7 +53,7 @@ next part was deploy the model into production to make easy to use , we develope
           python app.py 
     chose from folder sample/test image to perdict which the first interface will segment the image and save the results in **Segement Folder**    
 
-Following this Project we did two Reseaches to improve performance of models: 
+Following this Project we explored two Reseaches with team from **the national university of water and Environmental Engineering** to improve performance of models: 
 
     @inproceedings{Yaroshchak2021MedicalIE,
     title={Medical Image Enhancement Based on Convolutional Denoising Autoencoders and GMD Model},
