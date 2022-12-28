@@ -4,7 +4,7 @@ this project was collboration with **The national university of water and Enviro
    - we worked on End-to-End integration Models that contain tWo models **Classification** and **Segementation** each one of it built using different technologies , but important step in any Machine Learning Process is Deployment Model into production , we developed a **Web Application** using Flask to creat two EndPoints REST APIs . 
 
 #### Part 1 building models:
-as follows we built two models classifcation and segmentation and each one asychronized way. 
+as follows we built two models classifcation and segmentation and each one asychronized way. </br>
 **Notation** : ***all the models have been used is in Notebooks folder***
 
 * **Classification** :
