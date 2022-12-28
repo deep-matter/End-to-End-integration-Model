@@ -40,7 +40,7 @@ next part was deploy the model into production to make easy to use , we develope
 
 * the interfaces are the Endpoints RESt APIs : 
  <p align="center">
-  <img src="./img/intergration.png" width="650" title="hover text">
+  <img src="./img/interface.png" width="650" title="hover text">
      </p>        
       
 
