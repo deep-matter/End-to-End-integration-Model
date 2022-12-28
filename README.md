@@ -23,6 +23,16 @@ as follows we built two models classifcation and segmentation and each one asych
         - **Map vessel blood** of eyes have low pixles range and hard to make model focus on **the region of interest**. in this stage we used ***UNET MODEL***  to Re-Create a new database which only have the Map Vessel Boold , 
     2. collecing data:
        the main goal of this model is re-creating segemented image from Funds image to reduce the high value pixle of unsued region and only keep map Vessel Boold of the eye [**the Dataset**](https://drive.grand-challenge.org/) 
+    3. Built model :
+       we used UNET model architecture since widly used in Biomedical Image segmentation is based on Encoder-Decoder interfaces implemented using Pytorch Framework . 
+* **Grad-CAM** : 
+    to make sure the model classification is performed in the right order we applied Grad-CAM activation class map to show the most area the model learn from 
+    here the Full Backend Process **End-to-End integration**
+    <p align="center">
+  <img src="./img/intergration.png" width="350" title="hover text">
+     </p>
+         
+
 
 
 
