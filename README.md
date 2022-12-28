@@ -19,8 +19,8 @@ as follows we built two models classifcation and segmentation and each one asych
 * **Segmentation** :
     1. Problem Description:
       after we built the Classifier and test on different sample some problems we faced are :
-      - similar features between Classes which make the model not able to predict each class good , 
-      - **Map vessel blood** of eyes have low pixles range and hard to make model focus on **the region of interest**. in this stage we used ***UNET MODEL***  to Re-Create a new database which only have the Map Vessel Boold , 
+        - similar features between Classes which make the model not able to predict each class good , 
+        - **Map vessel blood** of eyes have low pixles range and hard to make model focus on **the region of interest**. in this stage we used ***UNET MODEL***  to Re-Create a new database which only have the Map Vessel Boold , 
     2. collecing data  
 
 
