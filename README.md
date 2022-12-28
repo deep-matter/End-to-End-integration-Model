@@ -3,3 +3,16 @@ this project was collboration with **The national university of water and Enviro
 1. Description Project:
    - we worked on End-to-End integration Models that contain tWo models **Classification** and **Segementation** each one of it built using different technologies , but important step in any Machine Learning Process is Deployment Model into production , we developed a **Web Application** using Flask to creat two EndPoints REST APIs . 
 
+### Build the models:
+as follows we built two models classifcation and segmentation and each one asychronized way. 
+
+* **Classification**:
+    - problem description :
+      at this stage we explored different models architecture in computer vision , and we used Convolution neural network with adding improvement to it 
+      1. collecting data :
+         we obtained the data from **Kaggle** and the team Lab Labeled it manually with expeter and it has Four Classes (DiabeticRetinopathy , Glaucoma , Myopia , Normal)
+      2. Processing :
+         the data was nosiy and we used Per-Processing technique to enhance data such 
+         super Resolution (Autoencoder) , Oversampling (DCGAN) , Histogram Equilazation 
+      3. built model   
+
