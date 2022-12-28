@@ -10,7 +10,7 @@ as follows we built two models classifcation and segmentation and each one asych
     - problem description :
       at this stage we explored different models architecture in computer vision , and we used Convolution neural network with adding improvement to it 
       1. collecting data :
-         we obtained the data from **Kaggle** and the team Lab Labeled it manually with expeter and it has Four Classes (DiabeticRetinopathy , Glaucoma , Myopia , Normal)
+         we obtained the data from [**Kaggle**](https://www.kaggle.com/competitions/diabetic-retinopathy-detection/data) and the team Lab Labeled it manually with expeter and it has Four Classes (DiabeticRetinopathy , Glaucoma , Myopia , Normal)
       2. Processing :
          the data was nosiy and we used Per-Processing technique to enhance data such 
          super Resolution (Autoencoder) , Oversampling (DCGAN) , Histogram Equilazation 
@@ -21,7 +21,8 @@ as follows we built two models classifcation and segmentation and each one asych
       after we built the Classifier and test on different sample some problems we faced are :
         - similar features between Classes which make the model not able to predict each class good , 
         - **Map vessel blood** of eyes have low pixles range and hard to make model focus on **the region of interest**. in this stage we used ***UNET MODEL***  to Re-Create a new database which only have the Map Vessel Boold , 
-    2. collecing data  
+    2. collecing data:
+       the main goal of this model is re-creating segemented image from Funds image to reduce the high value pixle of unsued region and only keep map Vessel Boold of the eye [**the Dataset**](https://drive.grand-challenge.org/) 
 
 
 
