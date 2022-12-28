@@ -5,7 +5,7 @@ this project was collboration with **The national university of water and Enviro
 
 #### Part 1 building models:
 as follows we built two models classifcation and segmentation and each one asychronized way. </br>
-**Notation** : ***all the models have been used is in Notebooks folder***
+**Notation** : ***all the models have been used are in Notebooks folder***
 
 * **Classification** :
     - problem description :
@@ -51,7 +51,15 @@ next part was deploy the model into production to make easy to use , we develope
      after run the ***app.py =*** host the application 
 
           python app.py 
-    chose from folder sample/test image to perdict which the first interface will segment the image and save the results in **Segement Folder**          
+    chose from folder sample/test image to perdict which the first interface will segment the image and save the results in **Segement Folder**    
+
+Following this Project we did two Reseaches : 
+
+    @inproceedings{Yaroshchak2021MedicalIE,
+    title={Medical Image Enhancement Based on Convolutional Denoising Autoencoders and GMD Model},
+    author={Serhii Yaroshchak and Mahmoud Smaida and Youness El Barg},
+    booktitle={MoMLeT+DS},
+    year={2021}}
 
 
 
