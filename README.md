@@ -14,5 +14,7 @@ as follows we built two models classifcation and segmentation and each one asych
       2. Processing :
          the data was nosiy and we used Per-Processing technique to enhance data such 
          super Resolution (Autoencoder) , Oversampling (DCGAN) , Histogram Equilazation 
-      3. built model   
+      3. built model :
+         we explored different models architecture such RESNET and MobileNEt from Tensoflow **Per-Trained** models and we funed tune the parameters we reach out wiht out final model to ***96.58% AUC*** and it was based CNN and Smoothing is technic Regulazition to vectorize labels , and all the training process was implemented on Colab Google Platfrom that Provide GPH 
+
 
