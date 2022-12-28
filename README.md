@@ -53,13 +53,20 @@ next part was deploy the model into production to make easy to use , we develope
           python app.py 
     chose from folder sample/test image to perdict which the first interface will segment the image and save the results in **Segement Folder**    
 
-Following this Project we did two Reseaches : 
+Following this Project we did two Reseaches to improve performance of models: 
 
     @inproceedings{Yaroshchak2021MedicalIE,
     title={Medical Image Enhancement Based on Convolutional Denoising Autoencoders and GMD Model},
     author={Serhii Yaroshchak and Mahmoud Smaida and Youness El Barg},
     booktitle={MoMLeT+DS},
     year={2021}}
+
+    @inproceedings{Smaida2021DCGANFE,
+    title={DCGAN for Enhancing Eye Diseases Classification},
+    author={Mahmoud Smaida and Serhii Yaroshchak and Youness El Barg},
+    booktitle={CMIS},
+    year={2021}
+    }
 
 
 
